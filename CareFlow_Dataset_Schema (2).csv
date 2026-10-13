@@ -1,0 +1,26 @@
+Column_Name,Data_Type,Non_Missing_Count,Missing_Count,Missing_Percentage
+record_no,int64,62422,0,0.0
+patient_id,int64,62422,0,0.0
+Unnamed: 2,float64,0,62422,100.0
+appointment_id,int64,62422,0,0.0
+appointment_start_datetime,object,62422,0,0.0
+prescription_doctor_id,int64,62422,0,0.0
+prescription_doctor_name,object,62422,0,0.0
+prescription_order_id,int64,62422,0,0.0
+prescription_start_datetime,object,62410,12,0.02
+prescription_end_datetime,object,62421,1,0.0
+lab_id,float64,18029,44393,71.12
+lab_name,object,18029,44393,71.12
+lab_start_datetime,object,18029,44393,71.12
+lab_end_datetime,object,18029,44393,71.12
+imaging_request_id,float64,5523,56899,91.15
+imaging_result_id,float64,5523,56899,91.15
+imaging_name,object,5523,56899,91.15
+imaging_start_datetime,object,5523,56899,91.15
+imaging_end_datetime,object,5513,56909,91.17
+pharmacy_sale_line_id,float64,302,62120,99.52
+medicine_name,object,302,62120,99.52
+pharmacy_start_datetime,object,302,62120,99.52
+pharmacy_end_datetime,object,302,62120,99.52
+flow_code,int64,62422,0,0.0
+flow_name,object,62422,0,0.0

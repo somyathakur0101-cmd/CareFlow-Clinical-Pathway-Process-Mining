@@ -1,0 +1,26 @@
+,Missing Count,Missing Percentage (%)
+record_no,0,0.0
+patient_id,0,0.0
+Unnamed: 2,62422,100.0
+appointment_id,0,0.0
+appointment_start_datetime,0,0.0
+prescription_doctor_id,0,0.0
+prescription_doctor_name,0,0.0
+prescription_order_id,0,0.0
+prescription_start_datetime,12,0.02
+prescription_end_datetime,1,0.0
+lab_id,44393,71.12
+lab_name,44393,71.12
+lab_start_datetime,44393,71.12
+lab_end_datetime,44393,71.12
+imaging_request_id,56899,91.15
+imaging_result_id,56899,91.15
+imaging_name,56899,91.15
+imaging_start_datetime,56899,91.15
+imaging_end_datetime,56909,91.17
+pharmacy_sale_line_id,62120,99.52
+medicine_name,62120,99.52
+pharmacy_start_datetime,62120,99.52
+pharmacy_end_datetime,62120,99.52
+flow_code,0,0.0
+flow_name,0,0.0

@@ -1,0 +1,26 @@
+Column,Non-Null Count,Unique Values,Repeated Value Count,Repeated Percentage (%)
+record_no,62422,62422,0,0.0
+patient_id,62422,39442,22980,36.81
+Unnamed: 2,0,0,0,0.0
+appointment_id,62422,49912,12510,20.04
+appointment_start_datetime,62422,43305,19117,30.63
+prescription_doctor_id,62422,98,62324,99.84
+prescription_doctor_name,62422,98,62324,99.84
+prescription_order_id,62422,50568,11854,18.99
+prescription_start_datetime,62410,43384,19026,30.49
+prescription_end_datetime,62421,43261,19160,30.69
+lab_id,18029,17083,946,5.25
+lab_name,18029,119,17910,99.34
+lab_start_datetime,18029,6414,11615,64.42
+lab_end_datetime,18029,11719,6310,35.0
+imaging_request_id,5523,5360,163,2.95
+imaging_result_id,5523,5360,163,2.95
+imaging_name,5523,38,5485,99.31
+imaging_start_datetime,5523,5270,253,4.58
+imaging_end_datetime,5513,5271,242,4.39
+pharmacy_sale_line_id,302,262,40,13.25
+medicine_name,302,154,148,49.01
+pharmacy_start_datetime,302,112,190,62.91
+pharmacy_end_datetime,302,118,184,60.93
+flow_code,62422,7,62415,99.99
+flow_name,62422,7,62415,99.99

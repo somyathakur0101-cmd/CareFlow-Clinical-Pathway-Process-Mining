@@ -1,0 +1,33 @@
+CareFlow Dataset Cleaning Review - Version 2
+============================================
+
+Input file: HospitalOPD-noname (1)(2).csv
+Original shape: 62422 rows x 25 columns
+Output shape: 62422 rows x 42 columns
+
+Empty columns removed: ['Unnamed: 2']
+
+ID column handling:
+- lab_id: converted to nullable integer
+- imaging_request_id: converted to nullable integer
+- imaging_result_id: converted to nullable integer
+- pharmacy_sale_line_id: converted to nullable integer
+
+Timestamp parsing:
+Parsed date/time values using day-first interpretation and exported valid values in DD-MM-YYYY HH:MM:SS format.
+Original text is preserved in *_original columns; unparseable non-empty values are flagged in *_parse_issue columns.
+- appointment_start_datetime: unparseable non-empty values = 0
+- prescription_start_datetime: unparseable non-empty values = 0
+- prescription_end_datetime: unparseable non-empty values = 0
+- lab_start_datetime: unparseable non-empty values = 0
+- lab_end_datetime: unparseable non-empty values = 2889
+- imaging_start_datetime: unparseable non-empty values = 0
+- imaging_end_datetime: unparseable non-empty values = 0
+- pharmacy_start_datetime: unparseable non-empty values = 0
+- pharmacy_end_datetime: unparseable non-empty values = 0
+
+Lab end datetime:
+Time-only values remain missing in lab_end_datetime and are flagged; originals are preserved for review.
+
+Caution:
+This is a provisional cleaning copy. Review ambiguous date formats and event ordering with the team before final process-mining use. No rows were deleted.

@@ -1,0 +1,7 @@
+Metric,Value
+Total Prescription Records,50568.0
+Missing Duration,13.0
+Zero Duration,33506.0
+Zero Duration Percentage,66.28
+Negative Duration,49.0
+Zero Duration with Identical Timestamps,33506.0

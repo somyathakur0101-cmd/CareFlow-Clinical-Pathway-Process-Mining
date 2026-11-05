@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Protected Patient-Level Healthcare Data (HIPAA / Data Privacy Protection)
+outputs/careflow_event_log.csv
+outputs/careflow_event_log.xes
+outputs/case_summary.csv
+**/case_summary.csv
+**/*careflow_event_log*
+**/*case_summary*
+*.xlsx
+data/*.xlsx
+data/*.csv
+HospitalOPD*.csv
+
+# Secrets, credentials and tokens
+*.env
+*.env.*
+*.key
+*.pem
+*.token
+
+# Temporary scratch and virtual environments
+scratch/
+.venv/
+venv/
+env/

@@ -1,0 +1,21 @@
+source_activity,target_activity,transition_count,transition_percentage,mean_transition_minutes,median_transition_minutes
+Appointment Registration,Doctor Consultation & Prescription,47964,64.77%,130.22,25.0
+Laboratory Examination,Laboratory Examination,11395,15.39%,1.86,0.0
+Doctor Consultation & Prescription,Laboratory Examination,5302,7.16%,35.69,19.0
+Doctor Consultation & Prescription,Imaging Procedure,2981,4.03%,441.32,35.0
+Imaging Procedure,Doctor Consultation & Prescription,1658,2.24%,41.58,25.0
+Appointment Registration,Imaging Procedure,1592,2.15%,72.2,47.0
+Imaging Procedure,Laboratory Examination,614,0.83%,44.89,29.0
+Doctor Consultation & Prescription,Doctor Consultation & Prescription,562,0.76%,1054.0,15.0
+Laboratory Examination,Imaging Procedure,483,0.65%,1613.24,60.0
+Laboratory Examination,Doctor Consultation & Prescription,379,0.51%,254.78,37.0
+Appointment Registration,Laboratory Examination,352,0.48%,110.79,30.0
+Imaging Procedure,Appointment Registration,288,0.39%,55.14,18.0
+Pharmacy Dispensing,Pharmacy Dispensing,154,0.21%,3.62,0.0
+Laboratory Examination,Appointment Registration,125,0.17%,192.8,158.0
+Doctor Consultation & Prescription,Pharmacy Dispensing,106,0.14%,10.59,7.0
+Imaging Procedure,Imaging Procedure,82,0.11%,197.51,10.0
+Pharmacy Dispensing,Laboratory Examination,12,0.02%,17.67,11.0
+Doctor Consultation & Prescription,Appointment Registration,5,0.01%,2107.4,1439.0
+Laboratory Examination,Pharmacy Dispensing,2,0.0%,45.0,45.0
+Pharmacy Dispensing,Imaging Procedure,1,0.0%,245.0,245.0

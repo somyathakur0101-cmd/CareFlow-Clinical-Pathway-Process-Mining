@@ -1,0 +1,8 @@
+Quality_Flag,Flagged_Records
+flag_possible_duplicate_extra,4
+flag_lab_id_reused,1332
+flag_imaging_id_reused,121
+flag_admin_doctor,3
+flag_prescription_end_before_start,52
+flag_prescription_start_missing,12
+flag_event_before_appointment,749

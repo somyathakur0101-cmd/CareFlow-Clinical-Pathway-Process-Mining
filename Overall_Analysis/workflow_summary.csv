@@ -1,0 +1,8 @@
+flow_name,Total_Records,Unique_Patients,Unique_Appointments
+Appointment → Prescription,40164,33081,39697
+Appointment → Prescription → Lab,16434,5627,6003
+Appointment → Prescription → Imaging,3947,3035,3804
+Appointment → Prescription → Lab + Imaging,1575,1396,1528
+Appointment → Prescription → Pharmacy,281,104,104
+Appointment → Prescription → Lab + Pharmacy,20,14,14
+Appointment → Prescription → Imaging + Pharmacy,1,1,1

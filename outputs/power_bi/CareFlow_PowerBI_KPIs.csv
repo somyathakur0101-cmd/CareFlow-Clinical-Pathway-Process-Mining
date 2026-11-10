@@ -1,0 +1,17 @@
+Metric,Value,Category,Format
+Total Unique Patients,39442.0,Cohort Demographics,"#,##0"
+Total Recorded Appointments,49912.0,Cohort Demographics,"#,##0"
+Total Clinical Events,123969.0,Process Volume,"#,##0"
+Distinct Clinical Activities,5.0,Process Volume,0
+Distinct Process Variants,287.0,Process Complexity,0
+Petri Net Trace Fitness (TBR),1.0,Model Conformance,0.00%
+TBR Precision Score,0.7914,Model Conformance,0.00%
+TBR Harmonic F-Measure,0.8836,Model Conformance,0.00%
+Registration First Compliance,0.9916,Clinical Precedence,0.00%
+Pre-Consultation Diagnostics Rate,0.0466,Clinical Precedence,0.00%
+Activity Repetition / Loop Rate,0.0965,Process Complexity,0.00%
+Laboratory Median TAT (min),125.0,Turnaround Time,"#,##0.0"
+Imaging Median TAT (min),3.0,Turnaround Time,"#,##0.0"
+Doctor Consultation Median (min),0.0,Turnaround Time,"#,##0.0"
+Prescription Inverted Timestamps,49.0,Data Quality,0
+Missing Lab End Timestamps,4631.0,Data Quality,"#,##0"

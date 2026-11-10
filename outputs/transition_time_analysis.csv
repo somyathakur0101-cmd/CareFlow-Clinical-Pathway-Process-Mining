@@ -1,0 +1,21 @@
+source_activity,target_activity,transition_count,transition_percentage,mean_duration_minutes,median_duration_minutes,min_duration_minutes,max_duration_minutes,p90_duration_minutes,mean_duration_hours,median_duration_hours,p90_duration_hours,zero_duration_count,positive_duration_count,negative_duration_count,outliers_gt_24h_count,is_self_loop
+Appointment Registration,Doctor Consultation & Prescription,47964,64.77%,130.22,25.0,0.0,695643.0,92.0,2.17,0.42,1.53,34,47930,0,309,False
+Laboratory Examination,Laboratory Examination,11395,15.39%,1.86,0.0,0.0,4153.0,0.0,0.03,0.0,0.0,11275,120,0,1,True
+Doctor Consultation & Prescription,Laboratory Examination,5302,7.16%,35.69,19.0,0.0,8480.0,65.0,0.59,0.32,1.08,7,5295,0,1,False
+Doctor Consultation & Prescription,Imaging Procedure,2981,4.03%,441.32,35.0,0.0,65759.0,110.0,7.36,0.58,1.83,8,2973,0,124,False
+Imaging Procedure,Doctor Consultation & Prescription,1658,2.24%,41.58,25.0,1.0,7108.0,71.0,0.69,0.42,1.18,0,1658,0,2,False
+Appointment Registration,Imaging Procedure,1592,2.15%,72.2,47.0,0.0,2314.0,183.9,1.2,0.78,3.06,2,1590,0,1,False
+Imaging Procedure,Laboratory Examination,614,0.83%,44.89,29.0,1.0,625.0,69.7,0.75,0.48,1.16,0,614,0,0,False
+Doctor Consultation & Prescription,Doctor Consultation & Prescription,562,0.76%,1054.0,15.0,0.0,171329.0,1420.7,17.57,0.25,23.68,20,542,0,55,True
+Laboratory Examination,Imaging Procedure,483,0.65%,1613.24,60.0,2.0,76329.0,3246.6,26.89,1.0,54.11,0,483,0,73,False
+Laboratory Examination,Doctor Consultation & Prescription,379,0.51%,254.78,37.0,1.0,10170.0,331.2,4.25,0.62,5.52,0,379,0,16,False
+Appointment Registration,Laboratory Examination,352,0.48%,110.79,30.0,0.0,9388.0,92.0,1.85,0.5,1.53,3,349,0,4,False
+Imaging Procedure,Appointment Registration,288,0.39%,55.14,18.0,1.0,589.0,135.3,0.92,0.3,2.26,0,288,0,0,False
+Pharmacy Dispensing,Pharmacy Dispensing,154,0.21%,3.62,0.0,0.0,293.0,0.0,0.06,0.0,0.0,150,4,0,0,True
+Laboratory Examination,Appointment Registration,125,0.17%,192.8,158.0,1.0,686.0,456.2,3.21,2.63,7.6,0,125,0,0,False
+Doctor Consultation & Prescription,Pharmacy Dispensing,106,0.14%,10.59,7.0,1.0,71.0,19.0,0.18,0.12,0.32,0,106,0,0,False
+Imaging Procedure,Imaging Procedure,82,0.11%,197.51,10.0,0.0,12514.0,80.7,3.29,0.17,1.34,3,79,0,1,True
+Pharmacy Dispensing,Laboratory Examination,12,0.02%,17.67,11.0,2.0,51.0,42.8,0.29,0.18,0.71,0,12,0,0,False
+Doctor Consultation & Prescription,Appointment Registration,5,0.01%,2107.4,1439.0,6.0,5704.0,4555.2,35.12,23.98,75.92,0,5,0,2,False
+Laboratory Examination,Pharmacy Dispensing,2,0.0%,45.0,45.0,43.0,47.0,46.6,0.75,0.75,0.78,0,2,0,0,False
+Pharmacy Dispensing,Imaging Procedure,1,0.0%,245.0,245.0,245.0,245.0,245.0,4.08,4.08,4.08,0,1,0,0,False

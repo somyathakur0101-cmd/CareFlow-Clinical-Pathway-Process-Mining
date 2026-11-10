@@ -1,0 +1,6 @@
+activity,event_count,unique_cases,case_coverage_percent,event_share_percent,bounded_durations_count,mean_duration_minutes,median_duration_minutes
+Doctor Consultation & Prescription,50568,49912,100.0%,40.79%,50506,7.58,0.0
+Appointment Registration,49912,49912,100.0%,40.26%,49912,0.0,0.0
+Laboratory Examination,17806,6370,12.76%,14.36%,13175,469.39,125.0
+Imaging Procedure,5421,5323,10.66%,4.37%,5412,98.41,3.0
+Pharmacy Dispensing,262,108,0.22%,0.21%,262,6.08,1.0

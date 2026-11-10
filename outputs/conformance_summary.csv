@@ -1,0 +1,21 @@
+metric_category,metric_name,metric_value,unit_or_format,clinical_meaning
+PM4Py Token-Based Replay,Log Fitness,1.0,Score (0.0-1.0),Ability of the Petri net to reproduce observed traces without artificial tokens.
+PM4Py Token-Based Replay,Average Trace Fitness,1.0,Score (0.0-1.0),Mean replay fitness across all individual encounter traces.
+PM4Py Token-Based Replay,Percentage of Fitting Traces,100.0,Percentage (%),Proportion of encounters that replay perfectly to final sink marking.
+PM4Py Token-Based Replay,Total Cases Replayed,49912.0,Cases,Total OPD appointment cases analyzed in token replay.
+PM4Py Token-Based Replay,Perfect Fitting Cases,49912.0,Cases,Cases with zero missing and zero remaining tokens.
+PM4Py Token-Based Replay,Produced Tokens,552840.0,Tokens,Total tokens generated during net execution.
+PM4Py Token-Based Replay,Consumed Tokens,552840.0,Tokens,Total tokens consumed by firing transitions.
+PM4Py Token-Based Replay,Missing Tokens,0.0,Tokens,Tokens artificially inserted to force-fire transitions.
+PM4Py Token-Based Replay,Remaining Tokens,0.0,Tokens,Tokens left stranded in places at trace completion.
+PM4Py Precision & Quality,TBR Precision,0.7914,Score (0.0-1.0),Quantifies model precision against underfitting/excessive generalisation.
+PM4Py Precision & Quality,TBR F-Measure,0.8836,Score (0.0-1.0),Harmonic mean of fitness and precision.
+Process Structure,Petri Net Places,17.0,Count,Workflow net state places.
+Process Structure,Petri Net Transitions,21.0,Count,Clinical activities and silent routing transitions.
+Process Structure,Visible Activity Transitions,5.0,Count,Transitions corresponding to actual recorded OPD activities.
+Process Structure,Silent Routing Transitions,16.0,Count,Tau transitions enabling optional skips and loop routing.
+Clinical Precedence & Sequence,Registration First Compliance,49494.0,Cases (99.16%),Encounters starting with Appointment Registration.
+Clinical Precedence & Sequence,Pre-Consultation Diagnostics,2324.0,Cases (4.66%),Encounters where Imaging or Lab preceded Doctor Consultation.
+Clinical Precedence & Sequence,Repeated Activity Loops,4819.0,Cases (9.65%),"Encounters containing repeated tests, consults, or dispensing."
+Clinical Precedence & Sequence,Flow Designation Alignment,49890.0,Cases (99.96%),Encounters whose activity set matches assigned clinical flow code.
+Clinical Precedence & Sequence,Incomplete Single-Event Traces,0.0,Cases (0.00%),Prematurely terminated encounters with only 1 event.

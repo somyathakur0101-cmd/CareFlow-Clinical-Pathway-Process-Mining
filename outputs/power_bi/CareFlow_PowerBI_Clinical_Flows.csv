@@ -1,0 +1,8 @@
+Flow_Code,Flow_Name,Total_Cases,Case_Percentage,Start_Conforming_Pct,Pre_Consult_Diag_Pct,Loop_Repetition_Pct,Avg_Trace_Length
+1,Appointment -> Prescription,39667,79.47,99.99,0.0,1.17,2.01
+2,Appointment -> Prescription -> Lab,4834,9.69,98.22,7.43,61.09,4.36
+3,Appointment -> Prescription -> Imaging,3785,7.58,93.92,38.84,3.54,3.08
+4,Appointment -> Prescription -> Pharmacy,93,0.19,100.0,0.0,72.04,4.14
+5,Appointment -> Prescription -> Lab + Imaging,1518,3.04,93.54,32.61,78.13,6.03
+6,Appointment -> Prescription -> Lab + Pharmacy,14,0.03,100.0,0.0,92.86,7.21
+7,Appointment -> Prescription -> Imaging + Pharmacy,1,0.0,100.0,0.0,0.0,4.0

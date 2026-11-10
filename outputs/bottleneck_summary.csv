@@ -1,0 +1,18 @@
+analysis_category,entity_name,total_records,valid_records,missing_or_anomalous_records,mean_minutes,median_minutes,p90_minutes,min_minutes,max_minutes,clinical_operational_context
+Activity Turnaround Time,Laboratory Examination,17806,13175,4631,469.39,125.0,470.0,0.0,76200.0,"Turnaround calculated strictly on 13,175 verified bounded lab tests. 4,631 tests with unparseable end times excluded per Rule 1 & 2."
+Activity Turnaround Time,Imaging Procedure,5421,5412,9,98.41,3.0,9.0,0.0,101753.0,"Calculated on 5,412 bounded radiology examinations. Reflects technical procedure execution duration."
+Activity Turnaround Time,Doctor Consultation & Prescription,50568,50506,62,7.58,0.0,7.0,0.0,40391.0,"Calculated on 50,506 valid orders. Excludes 12 missing start timestamps (Rule 8) and 49 inverted start>end timestamps (Rule 9). Median 0m indicates instantaneous order entry."
+Activity Turnaround Time,Pharmacy Dispensing,262,262,0,6.08,1.0,2.0,0.0,707.0,Pharmacy sales line item processing duration.
+Activity Turnaround Time,Appointment Registration,49912,49912,0,0.0,0.0,0.0,0.0,0.0,Point event representing arrival and check-in timestamp.
+Clinical Flow Case Duration,Flow 1: Appointment → Prescription,39667,39667,354,164.37,26.0,94.0,0.0,695643.0,0.89% cases exceed 24h span (cross-day/admission).
+Clinical Flow Case Duration,Flow 2: Appointment → Prescription → Lab,4834,4834,35,103.81,50.0,153.0,2.0,10227.0,0.72% cases exceed 24h span (cross-day/admission).
+Clinical Flow Case Duration,Flow 3: Appointment → Prescription → Imaging,3785,3785,123,383.67,78.0,261.0,6.0,65810.0,3.25% cases exceed 24h span (cross-day/admission).
+Clinical Flow Case Duration,Flow 4: Appointment → Prescription → Pharmacy,93,93,0,42.91,29.0,86.4,7.0,337.0,0.0% cases exceed 24h span (cross-day/admission).
+Clinical Flow Case Duration,Flow 5: Appointment → Prescription → Lab + Imaging,1518,1518,97,711.39,115.5,438.3,21.0,76359.0,6.39% cases exceed 24h span (cross-day/admission).
+Clinical Flow Case Duration,Flow 6: Appointment → Prescription → Lab + Pharmacy,14,14,0,51.21,48.5,82.5,12.0,97.0,0.0% cases exceed 24h span (cross-day/admission).
+Clinical Flow Case Duration,Flow 7: Appointment → Prescription → Imaging + Pharmacy,1,1,0,322.0,322.0,322.0,322.0,322.0,0.0% cases exceed 24h span (cross-day/admission).
+Slow Inter-Activity Transition,Laboratory Examination -> Imaging Procedure,483,483,73,1613.24,60.0,3246.6,2.0,76329.0,Observed waiting span between steps. 0 simultaneous entries.
+Slow Inter-Activity Transition,Doctor Consultation & Prescription -> Imaging Procedure,2981,2973,124,441.32,35.0,110.0,0.0,65759.0,Observed waiting span between steps. 8 simultaneous entries.
+Slow Inter-Activity Transition,Laboratory Examination -> Doctor Consultation & Prescription,379,379,16,254.78,37.0,331.2,1.0,10170.0,Observed waiting span between steps. 0 simultaneous entries.
+Slow Inter-Activity Transition,Laboratory Examination -> Appointment Registration,125,125,0,192.8,158.0,456.2,1.0,686.0,Observed waiting span between steps. 0 simultaneous entries.
+Slow Inter-Activity Transition,Appointment Registration -> Doctor Consultation & Prescription,47964,47930,309,130.22,25.0,92.0,0.0,695643.0,Observed waiting span between steps. 34 simultaneous entries.
